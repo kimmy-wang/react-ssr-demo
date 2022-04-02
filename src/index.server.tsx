@@ -1,7 +1,7 @@
 import React from 'react';
 import {StaticRouter} from "react-router-dom/server";
 import './index.css';
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 
 export default function createApp(url: string) {
